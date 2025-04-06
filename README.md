@@ -1,62 +1,36 @@
-# rock-paper-scissors
+![Rock Paper Scissors Logo](public/logo.png)
 
-This template should help get you started developing with Vue 3 in Vite.
+# ROCK PAPER SCISSORS VUE PROJECT
 
-## Recommended IDE Setup
+## Project Brief
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Create a rock paper scissors arcade style game in VUE.js that allows the user to play against the computer and set a high score that will be saved to local storage.
 
-## Type Support for `.vue` Imports in TS
+## Project Requirements
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Build a web app using VUE.js
+- Version control your application with Git and host the repository on GitHub
+- Deploy your application
+- Write a README (using Markdown) that documents your project, including:
+  - The purpose of your project
+  - Technologies used
+  - Features
 
-## Customize configuration
+## Features
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Minimum requirements:
 
-## Project Setup
+- Users can enter a custom name
+- Users can make their selection from rock paper or scissors and have it compared to a random computer selction to see who wins
+- Users can see their game stats
 
-```sh
-npm install
-```
+## Technologies Used
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-# RockPaperScissors
+- HTML
+- SCSS
+- TypeScript
+- VUE.js
+- Pinia
+- Command Line
+- Git and GitHub
+- Markdown
