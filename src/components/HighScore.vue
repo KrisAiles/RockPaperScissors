@@ -55,6 +55,10 @@ const highScores = scoreStore.highScores;
         p {
             font-size: 2rem;
         }
+
+        ul {
+            font-size: 1.25rem;
+        }
     }
 }
 
