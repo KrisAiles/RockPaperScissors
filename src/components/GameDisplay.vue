@@ -159,6 +159,10 @@ const displayVS = computed(() => {
 
 #round-start {
     @include mixins.display;
+
+    p {
+        padding: 0 1.5625rem;
+    }
 }
 
 #game-over {

@@ -8,12 +8,16 @@
   font-weight: normal;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   min-height: 100vh;
   font-family: "Jersey 10", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: variables.$blue-color;
   color: #ffffff;
   text-rendering: optimizeLegibility;

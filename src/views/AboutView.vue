@@ -28,7 +28,7 @@ import { RouterLink } from 'vue-router';
     min-height: 75vh;
     width: 50%;
     border: 0.125rem solid variables.$game-border;
-    margin: 0 auto;
+    margin: 0 auto 1rem auto;
 
     ul {
         font-size: 1.25rem;
